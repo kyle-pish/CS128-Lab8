@@ -1,0 +1,5 @@
+partially_filled_array.o: partially_filled_array.cpp \
+ partially_filled_array.h
+main.o: main.cpp dynamic_array.h partially_filled_array.h
+dynamic_array.o: dynamic_array.cpp dynamic_array.h \
+ partially_filled_array.h
